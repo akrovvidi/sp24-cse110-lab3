@@ -1,8 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
-  </head>
-  <body>
-  </body>
+<head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Meeting Minutes</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Brainstorming Session</h2>
+            <h3>Date: April 9, 2024</h3>
+            <strong>Attendance:</strong> Aniruddh Krovvidi, Virat Kohli, Kobbie Mainoo 
+            <h3>Agenda:</h3>
+            <ul>
+                <li>Discuss Project Proposal Ideas within the identified scope</li>
+                <li>Feasability reviews</li>
+                <li>Assign and divide tasks among group members</li>
+            </ul>
+            <h3>Unfinished Business:</h3>
+            <p>Have not identified the project scope yet.</p>
+            <h3>New Business:</h3>
+            <p>Assigning a budget for the Project</p>
+            <h3>Miscellaneous:</h3>
+            <p>Mental-health check on everyone</p>
+
+            <h2>Whiteboard Discussion:</h2>
+            <img src="https://github.com/akrovvidi/CSE110-Lab1-SP2024/assets/122575272/e0e7c472-9bc5-4b4e-b25a-9b6e1c5277ff" alt="Whiteboard diagram">
+            <p>Cited from: <strong>https://betterprogramming.pub</strong></p>
+            <br>
+            <div class="audio-container">
+            <h2>Audio Recording of the meeting:</h2>
+            <audio controls>
+                <source src="Meeting.mp3" type="audio/mpeg">
+            </audio>
+            </div>
+            <br>
+            <div class="video-container">
+            <h2>Video Recording of the meeting:</h2>
+            <video controls width="400" height="300">
+                <source src="Meeting_video.mp4" type="video/mp4">
+            </video>
+            </div>
+            <h2>Additional Pointers</h2>
+            <details>
+                <summary>Toggle to view</summary><br>
+                <p>There are no additional pointers for this meeting</p><br>
+            </details>
+            <form>
+              <fieldset>
+                  <legend>Contact Details:</legend>
+      
+                  <label for="name">Name:</label><br>
+                  <input type="text" id="name" name="name" required><br><br>
+      
+                  <label for="email">Email:</label><br>
+                  <input type="text" id="email" name="email" required><br><br>
+      
+                  <label for="message">Any additional thoughts you would like to share on the meeting?</label><br>
+                  <textarea id="message" name="message" rows="2" cols="50" required></textarea><br><br>
+      
+
+
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label><br><br>
+      
+                  <label for="birthdate">Today's Date:</label><br>
+                  <input type="date" id="birthdate" name="birthdate"><br><br>
+      
+                  <label for="newsletter">I am up-to-date with the project material now</label>
+                  <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+      
+                  <label for="country">Country:</label><br>
+                  <select id="country" name="country">
+                      <option value="usa">USA</option>
+                      <option value="canada">Canada</option>
+                      <option value="uk">UK</option>
+                      <option value="australia">Australia</option>
+                  </select><br><br>
+                  <label for="team">What team are you on?</label><br>
+                  <input id="team" list="teams"/>
+                  <datalist id="teams">
+                      <option value="Frontend">
+                      <option value="Backend">
+                      <option value="Marketing">
+                      <option value="Finance">
+                  </datalist>
+      
+                  <button type="submit">Submit</button>
+              </fieldset>
+          </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by <strong>Aniruddh Krovvidi </strong></p>
+    </footer>
+</body>
 </html>
