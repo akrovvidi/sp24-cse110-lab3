@@ -43,3 +43,14 @@ label {
     color: #FF0000; 
 }
 
+.relative {
+    width: 50%; 
+    padding: 5vw; 
+    margin: 1em; 
+}
+
+.absolute{
+    border-width: 2px; 
+    width: 3in; 
+    padding: 1cm; 
+}
