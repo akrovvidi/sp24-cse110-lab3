@@ -43,13 +43,13 @@ label {
     color: #FF0000; 
 }
 
-.relative {
+.audio-container{
     width: 50%; 
     padding: 5vw; 
     margin: 1em; 
 }
 
-.absolute{
+.video-container{
     border-width: 2px; 
     width: 3in; 
     padding: 1cm; 
