@@ -49,5 +49,10 @@ label {
 .video-container {
     width: 200px;
 }
+.contact-form {
+    width: 300px;
+    border: 1px solid black;
+    height: 20vh;
+}
 
 
