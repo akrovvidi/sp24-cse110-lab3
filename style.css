@@ -2,10 +2,12 @@
 /* Apply colors to HTML elements */
 body {
     background-color: linen; 
+    font-family: 'sans-serif';
 }
 
 /* Setting header color */
 header {
+    display: block;
     color: rgb(0,0,255); ; 
 }
 
@@ -47,11 +49,15 @@ label {
     font-size: 1em;
     width: 2rem;
     height: 20vh;
+    margin: 20px 10px;
     
 }
 .video-container {
+    position: relative;
     display: inline-block;
     width: 200px;
+    padding: 10px 20px;
+    margin: auto;
 }
 .contact-form label {
     color: black;
@@ -65,8 +71,7 @@ label {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-
-
+    
     /* Padding */
     padding-top: 10px;
     padding-bottom: 10px;
@@ -84,6 +89,23 @@ label {
     text-decoration: none;
     text-align: left;
 }
+nav{
+    max-width: 800px;
+    min-width: 200px;
+    height: 100px;
+    width: 400px;
+    position: static;
+}
+button:hover {
+  background-color: lightblue;
+}
+button:active {
+  background-color: lightcoral;
+}
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: row;
+  }
 }
 
 
