@@ -52,10 +52,10 @@ label {
 .video-container {
     width: 200px;
 }
-.contact-form {
+.contact-form label {
     width: 300in;
     height: 20cm;
-    text-color: black;
+    color: black;
 }
 
 
