@@ -1,13 +1,12 @@
 
 /* Apply colors to HTML elements */
 body {
-    color: rgb(0,0,255); 
     background-color: linen; 
 }
 
 /* Setting header color */
 header {
-    color: blue; 
+    color: rgb(0,0,255); ; 
 }
 
 /* Set color of links */
