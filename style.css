@@ -45,13 +45,16 @@ label {
 
 .audio-container {
     font-size: 1em;
+    width: 2rem;
+    height: 20vh;
+    
 }
 .video-container {
     width: 200px;
 }
 .contact-form {
     width: 300in;
-    height: 20vh;
+    height: 20cm;
     color: black;
 }
 
