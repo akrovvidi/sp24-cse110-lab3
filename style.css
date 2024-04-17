@@ -46,5 +46,8 @@ label {
 .audio-container {
     font-size: 1em;
 }
+.video-container {
+    width: 200px;
+}
 
 
