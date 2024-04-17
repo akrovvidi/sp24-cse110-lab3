@@ -17,7 +17,7 @@ a {
 
 /* Set color for strong elements */
 strong {
-    color: hsl(120, 100%, 50%);
+    color: hsl(120, 100%, 25%);
 }
 
 /* Set color for emphasized elements */
