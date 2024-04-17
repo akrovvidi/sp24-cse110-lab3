@@ -43,13 +43,13 @@ label {
     color: #FF0000; 
 }
 
-.white-img{
+.video-container{
     width: 50%; 
     padding: 5vw; 
     margin: 1em; 
 }
 
-.video-container{
+.white-img{
     border-width: 2px; 
     width: 3in; 
     padding: 1cm; 
