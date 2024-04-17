@@ -60,6 +60,30 @@ label {
     display: inline-block;
     width: 300in;
     height: 20cm;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    /* Padding */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* Borders */
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+
+    /* Text */
+    color: #333; /* Dark gray color */
+    text-decoration: none;
+    text-align: left;
+}
 }
 
 
