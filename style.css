@@ -44,18 +44,23 @@ label {
 }
 
 .audio-container {
+    display: inline-block;
     font-size: 1em;
     width: 2rem;
     height: 20vh;
     
 }
 .video-container {
+    display: inline-block;
     width: 200px;
 }
 .contact-form label {
+    color: black;
+}
+.contact-form {
+    display: inline-block;
     width: 300in;
     height: 20cm;
-    color: black;
 }
 
 
