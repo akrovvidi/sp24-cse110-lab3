@@ -1,1 +1,45 @@
 
+/* Apply colors to HTML elements */
+body {
+    color: rgb(0,0,255); 
+    background-color: linen; 
+}
+
+/* Setting header color */
+header {
+    color: blue; 
+}
+
+/* Set color of links */
+a {
+    color: purple; 
+}
+
+/* Set color for strong elements */
+strong {
+    color: hsl(120, 100%, 50%);
+}
+
+/* Set color for emphasized elements */
+em {
+    color: color-mix(add, color(adobe-rgb 1 0.4 0), color(adobe-rgb 1 1 1 / 2)); /* Gives a shade of orange */
+}
+
+/* Set color for list items */
+li {
+    color: color(adobe-rgb 0.6471 0.1647 0.1647); /* Gives brown */
+}
+
+/* Set color for paragraphs */
+p {
+    color: navy; 
+
+/* Set color for details summary */
+summary {
+    color: teal; 
+
+/* Set color for input labels */
+label {
+    color: #FF0000; 
+}
+
