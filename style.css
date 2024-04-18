@@ -157,4 +157,11 @@ nav{
 .grid-container li {
     font-weight: bold;
 }
+#parent-list {
+    color: black;
+    li{
+        font-size: 10px;
+    }
+}
+        
 
