@@ -4,10 +4,13 @@ body {
     background-color: linen; 
     font-family: 'Montserrat';
 }
-
+:root {
+    --dis: block;
+}
+    
 /* Setting header color */
 header {
-    display: block;
+    display: var(--dis,block);
     color: rgb(0,0,255); ; 
 }
 * {
