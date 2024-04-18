@@ -43,7 +43,7 @@ strong {
 
 /* Set color for emphasized elements */
 em {
-    color: color-mix(add, color(adobe-rgb 1 0.4 0), color(adobe-rgb 1 1 1 / 2)); /* Gives a shade of orange */
+    color: color-mix(in srgb, #65ef23 90%, yellow);
 }
 
 /* Set color for list items */
@@ -54,10 +54,12 @@ li {
 /* Set color for paragraphs */
 p {
     color: navy; 
+}
 
 /* Set color for details summary */
 summary {
     color: teal; 
+}
 
 /* Set color for input labels */
 label {
@@ -135,7 +137,6 @@ nav{
     flex-direction: row;
   }
 }
-
 .flex-container {
     display: flex;
     flex-direction: column; 
