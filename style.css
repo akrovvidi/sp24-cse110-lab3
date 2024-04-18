@@ -2,7 +2,7 @@
 /* Apply colors to HTML elements */
 body {
     background-color: linen; 
-    font-family: 'sans-serif';
+    font-family: 'Montserrat';
 }
 
 /* Setting header color */
@@ -10,12 +10,32 @@ header {
     display: block;
     color: rgb(0,0,255); ; 
 }
-
+* {
+    box-sizing: border-box;
+}
 /* Set color of links */
 a {
     color: purple; 
 }
-
+h2 {
+    font-size: 20px;
+}
+h2, h3 {
+    margin-bottom: 10px;
+}
+h3 ~ p {
+    font-style: italic;
+}
+h3.important {
+    color: red;
+}
+h2 + p {
+    color: green;
+}
+[type="date"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
 /* Set color for strong elements */
 strong {
     color: hsl(120, 100%, 25%);
@@ -43,14 +63,18 @@ summary {
 label {
     color: #FF0000; 
 }
-
+ol:has(li) {
+    margin-bottom: 20px;
+}
 .audio-container {
     display: inline-block;
     font-size: 1em;
     width: 2rem;
     height: 20vh;
     margin: 20px 10px;
-    
+}
+.audio-container > audio {
+    margin-bottom: 10px;
 }
 .video-container {
     position: relative;
@@ -89,6 +113,10 @@ label {
     text-decoration: none;
     text-align: left;
 }
+#name {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
 nav{
     max-width: 800px;
     min-width: 200px;
@@ -108,4 +136,21 @@ nav{
   }
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    flex-direction: row
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid-container li {
+    font-weight: bold;
+}
 
