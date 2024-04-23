@@ -1,5 +1,4 @@
 
-/* Apply colors to HTML elements */
 body {
     background-color: linen; 
     font-family: 'Montserrat';
@@ -16,7 +15,7 @@ header {
 * {
     box-sizing: border-box;
 }
-/* Set color of links */
+/* Setting color of links */
 a {
     color: purple; 
 }
@@ -39,32 +38,29 @@ a[href="https://betterprogramming.pub"] {
     border: 1px solid rgb(110, 12, 12);
     padding: 5px;
   }
-/* Set color for strong elements */
+
 strong {
     color: hsl(120, 100%, 25%);
 }
 
-/* Set color for emphasized elements */
 em {
     color: color-mix(in srgb, #65ef23 90%, yellow);
 }
 
-/* Set color for list items */
 li {
     color: color(adobe-rgb 0.6471 0.1647 0.1647); /* Gives brown */
 }
 
-/* Set color for paragraphs */
+/* Setting color for paragraphs */
 p {
     color: navy; 
 }
 
-/* Set color for details summary */
+/* Setting color for details summary */
 summary {
     color: teal; 
 }
 
-/* Set color for input labels */
 label {
     color: #FF0000; 
 }
@@ -118,10 +114,12 @@ ol:has(li) {
     text-decoration: none;
     text-align: left;
 }
+
 #name {
     border: 1px solid #ccc;
     padding: 5px;
 }
+
 nav{
     max-width: 800px;
     min-width: 200px;
@@ -129,17 +127,21 @@ nav{
     width: 400px;
     position: static;
 }
+
 .button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
 .button:active {
   background-color: grey;
 }
 @media screen and (max-width: 768px) {
+    /* Nested Selector*/
   main {
     flex-direction: row;
   }
 }
+
 .flex-container {
     display: flex;
     flex-direction: column; 
@@ -154,6 +156,7 @@ nav{
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
 .grid-container li {
     font-weight: bold;
 }
